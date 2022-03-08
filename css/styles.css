@@ -8,8 +8,29 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     opacity: 1;
-    height: 100vh;
+    height: 80vh;
     color: white;
     text-align: center;
+    font-family: sans-serif;
     /* margin-top: 20%; */
+}
+
+/* .container1{
+    margin-top: 20px;
+} */
+
+.landing-page h1{
+padding-top: 5%;
+}
+
+/* .landing-page p{
+/* padding: 1%; */
+
+
+.landing-page #logo{
+    margin-top: 12.5%;
+}
+
+#mouse-click{
+    margin-top: 10%;
 }
