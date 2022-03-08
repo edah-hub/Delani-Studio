@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+.landing-page{
+    background-image: url('../images/backgrounds/h_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    /* margin-top: 20%; */
+}
