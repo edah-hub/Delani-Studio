@@ -7,7 +7,17 @@
     font-family: 'Copse', serif;
     font-size: 16px;
   }
-  .btn-primary col-sm-1{
+
+  .contact_us{
+    background-image: url('../images/backgrounds/c_image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;  
+  }
+
+  #btn{
       display: none;
   }
   .footer p{
