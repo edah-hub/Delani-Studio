@@ -7,6 +7,9 @@
     font-family: 'Copse', serif;
     font-size: 16px;
   }
+  .btn-primary col-sm-1{
+      display: none;
+  }
   .footer p{
     margin-top: 12px;
     font-family: 'Times New Roman', Times, serif;
