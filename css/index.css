@@ -1,0 +1,21 @@
+.text{
+    display: none;
+}
+
+#product, #development, #design{
+    display: none;
+    font-family: 'Copse', serif;
+    font-size: 16px;
+  }
+  .footer p{
+    margin-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    /* justify-self: center; */
+  }
+
+#footer{
+    text-align: center;
+    align-items: center;
+    /* margin-left: 35%; */
+    padding-top: 28px;
+}
