@@ -1,12 +1,28 @@
 .text{
-    display: none;
+    /* display: none; */
+    margin-top: 50%;
 }
+
+.portfolio h2{
+    text-align: center;
+    margin-bottom: 2.5%;
+    /* padding-top:40px; */
+    font-family: 'Times New Roman', Times, serif;
+  }
 
 #product, #development, #design{
     display: none;
     font-family: 'Copse', serif;
     font-size: 16px;
   }
+
+  #row2{
+      margin-top: 5%;
+  }
+
+  /* .row img{
+      height: 50px;
+  } */
 
   .contact_us{
     background-image: url('../images/backgrounds/c_image.jpg');
@@ -16,6 +32,18 @@
     color: white;
     text-align: center;  
   }
+
+  #contact_us{
+      margin-top: 5%;
+  }
+  input[type=text],input[type=email],#formtext{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+  
 
   #btn{
       display: none;
