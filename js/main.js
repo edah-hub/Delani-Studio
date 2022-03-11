@@ -5,3 +5,8 @@ $(document).ready(function(){
     $("input").focus();
     $(":focus").css("color", "white");
   });
+
+  $(document).ready(function(){
+      $(#)
+  }
+  )
