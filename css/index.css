@@ -7,9 +7,9 @@
 }
 
 #project, #development, #design{
-  /* display: none; */
+  /* display: none;  */
   font-family: 'Copse', serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /* .what-we-do{
@@ -29,12 +29,14 @@
 #what_we_do #heading{
  text-align: center;
  margin-top: 3%;
-
-  /* padding-bottom: 38px; */
 }
 
+  /* padding-bottom: 38px; */
+
+
 #portfolio{
- margin: 5% 0% 15% 0%; 
+  text-align: center;
+  margin: 5% 0% 15% 0%; 
 }
  #row{
   display: flex;
