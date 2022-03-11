@@ -22,12 +22,15 @@
 .what_we_do{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  display: flex;
+  display: flex; 
   padding-top: 3%;
 }
 
-#what-we-do .heading{
-  padding-bottom: 38px;
+#what_we_do #heading{
+ text-align: center;
+ margin-top: 3%;
+
+  /* padding-bottom: 38px; */
 }
 
 #portfolio{
