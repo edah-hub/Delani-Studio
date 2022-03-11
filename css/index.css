@@ -1,7 +1,33 @@
-#product, #development, #design{
-  display: none;
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+/* To remove default settings */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#project, #development, #design{
+  /* display: none; */
   font-family: 'Copse', serif;
   font-size: 16px;
+}
+
+/* .what-we-do{
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Gabriela', serif;
+} */
+
+.what_we_do{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  padding-top: 3%;
+}
+
+#what-we-do .heading{
+  padding-bottom: 38px;
 }
 
 #portfolio{
