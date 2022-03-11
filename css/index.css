@@ -6,12 +6,19 @@
   box-sizing: border-box;
 }
 
-#project, #development, #design{
-  /* display: none;  */
+#product, #development, #design{
+  display: none;
   font-family: 'Copse', serif;
   font-size: 16px;
   margin: 10%;
 }
+
+#product_img, #development_img, #design_img{
+  padding: 0% 1117% 0% 1117%;
+}
+/* .product img{
+  margin-left: -80%;
+} */
 
 /* .what-we-do{
   font-family: 'Quattrocento', serif;
@@ -90,9 +97,9 @@
   }
   
 
-  #btn{
+  /* #btn{
       display: none;
-  }
+  } */
   .footer p{
     /* margin-top: 12px; */
     font-family: 'Times New Roman', Times, serif;
