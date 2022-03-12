@@ -72,10 +72,21 @@ padding-top: 5%;
   padding-bottom: 10%;
 }
 
-a img{
-  border: 0 none;
-}
-.image-link{
-  text-decoration: none;
+.form-control::-webkit-input-placeholder { 
+  color: white; 
 }
 
+ #username{
+  width: 30%;
+  padding-top: 1%;
+  /* margin-top: 0%; */
+  /* margin-right: 50%; */
+} 
+#mail{
+  width: 30%;
+  margin-left: 50%;
+}
+#formtext{
+  margin-left: 20%;
+  width: 90%;
+}
