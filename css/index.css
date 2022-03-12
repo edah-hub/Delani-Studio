@@ -112,6 +112,7 @@
   .footer p{
     /* margin-top: 12px; */
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     /* justify-self: center; */
   }
 
@@ -120,13 +121,17 @@
     align-items: center;
     /* margin-left: 35%; */
     padding-top: 28px;
+    text-decoration: none;
 }
 
  #footer img{
   padding: 5px;
 } 
 
-#footer img a{
+#footer a{
   /* outline-style: none; */
   list-style-type: none;
+  font-size: 0px;
+  text-decoration: none;
 }
+
