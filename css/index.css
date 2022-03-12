@@ -86,13 +86,22 @@
   }
 
   #contact_us{
+    text-align: center;
       margin-top: 5%;
+  }
+  #contact_us h2{
+    padding: 1.5%;
+  }
+
+  #form{
+    padding: 0% 15% 5% 15%;
   }
   input[type=text],input[type=email],#formtext{
     background: transparent;
     color: white;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    margin: .5%;
     font-weight: 700;
   }
   
