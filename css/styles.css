@@ -32,21 +32,23 @@ padding-top: 5%;
 }
 
 #mouse-click{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     animation: bounce 2s infinite;
+    /* animation: bounce 0.5s; */
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-direction: alternate;
+    animation-iteration-count: infinite; 
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-55px);
-    }
-    60% {
-      transform: translateY(-45px);
-    }
+  from {
+      transform: translate3d(0, 0, 0);
   }
+  to {
+      transform: translate3d(0, 200px, 0);
+  }
+}
+
 
 #About_Us{
     text-align: center;
@@ -87,10 +89,17 @@ padding-top: 5%;
   font-family: 'Delius Swash Caps', cursive;
 } */
 
-.what_we_do #title{
-  align-items: center;
+.what-we-do #title{
+  padding-bottom: 35px;
+  margin-right: -.3%;
 
+  padding-top: 5%;
 }
+#title{
+  text-align: center;
+  padding-bottom: 38px;
+}
+
 
 .form-control::-webkit-input-placeholder { 
   color: white; 

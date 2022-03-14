@@ -13,9 +13,9 @@
   margin: 10%;
 }
 
-#product_img, #development_img, #design_img{
+/* #product_img, #development_img, #design_img{
   padding: 0% 1117% 0% 1117%;
-}
+} */
 /* .product img{
   margin-left: -80%;
 } */
@@ -69,15 +69,20 @@
   font-weight: bolder;
   /* margin-bottom: -50%; */
 }
-#product .text, #development .text, #design .text{
+/* #product .text, #development .text, #design .text{
   font-size: 20px;
   font-weight: 600;
-}
+} */
   .col-md-3 img{
     max-width: 100%;
     max-height: 100%;
   }
-
+  /* .what-we-do{
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Gabriela', serif;
+  } */
 
   .col-md-3 img{
     max-width: 100%;
