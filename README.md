@@ -1,6 +1,6 @@
 # Delani-Studio
 This project is a web application for Delani studio , It displays information about the studio,shows details on what  it does and its offers, a portfolio section and a form that enables users to send their messages and feedback to Delani studios.
-This is a website that showcases Janeffer's Interests. hobbies. skills etc
+[![Delani-Studio.jpg](https://i.postimg.cc/9QhnystS/Delani-Studio.jpg)](https://postimg.cc/BXmp0Yzc)
 ## Technologies Used
 - HTML & CSS (Bootstrap)
 - Javascript & Jquery
